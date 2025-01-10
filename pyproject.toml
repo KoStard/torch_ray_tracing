@@ -1,0 +1,14 @@
+[project]
+name = "ray-tracing-experiment"
+version = "0.1.0"
+description = "A ray tracing simulation for optical systems"
+authors = [
+    {name = "KoStard"},
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.0",
+    "torch>=2.5.1",
+    "torchvision>=0.20.1",
+]
